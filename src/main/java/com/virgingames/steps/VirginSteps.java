@@ -12,8 +12,5 @@ public class VirginSteps {
                 .when()
                 .get(EndPoints.GET_All_DATA)
                 .then().log().all();
-
     }
-
-
 }

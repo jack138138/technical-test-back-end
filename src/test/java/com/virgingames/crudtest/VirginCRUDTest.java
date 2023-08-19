@@ -29,7 +29,7 @@ public class VirginCRUDTest extends TestBase {
         response.log().all().statusCode(200);
     }
 
-    @Title("Getting Data for Currency : GBP")
+    @Title("Getting Data for first id Currency : GBP")
     @Test
     public void test002() {
         response = virginSteps.getAllData();
